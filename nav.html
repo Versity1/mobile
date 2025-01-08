@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product log</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1234567890.js" crossorigin="anonymous"></script>
+    <!-- If you don't have a Font Awesome Kit, use this CDN instead: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="static/css/nav.css">
+</head>
+<body>
+    <!-- top header -->
+     <div class="top-header p-2">
+        <div class="logo">
+            <h2 class="fw-2 text-light p-2">LOGO</h2>
+        </div>
+        <div class="profile">
+            <i class="fa-solid fa-user p-3" style="color: white;"></i>
+        </div>
+     </div>
+    <div class="content">
+        <h1>Content Area</h1>
+        <p>Scroll down to see the glassmorphic footer navigation.</p>
+    </div>
+<!-- mobile footer nav -->
+    <nav class="mobile-footer">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col nav-item">
+                    <a href="#" class="nav-link active" onclick="setActive(this, event)">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </div>
+                <div class="col nav-item">
+                    <a href="#" class="nav-link" onclick="setActive(this, event)">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Search</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </div>
+                <div class="col nav-item">
+                    <a href="#" class="nav-link" onclick="setActive(this, event)">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <span>Add</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </div>
+                <div class="col nav-item">
+                    <a href="#" class="nav-link" onclick="setActive(this, event)">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Likes</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </div>
+                <div class="col nav-item">
+                    <a href="#" class="nav-link" onclick="setActive(this, event)">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>Menu</span>
+                        <div class="nav-indicator"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="static/js/nav.js"></script>
+</body>
+</html>
